@@ -1,0 +1,58 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="StringFormatInvalid">
+    <string name="app_name">短信转家</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置</string>
+    <string name="user_sign_in">登录</string>
+    <string name="login_hint">邮件地址</string>
+    <string name="login_pw_hint">密码</string>
+    <string name="login">登录</string>
+    <string name="if_no_account">新用户?</string>
+    <string name="sign_up_link">注册!</string>
+    <string name="invalid_address">无效邮件地址</string>
+    <string name="login_fail">登录失败 :</string>
+    <string name="signup_success">注册成功</string>
+    <string name="signup_fail">注册失败 :</string>
+    <string name="input_empty">用户名称/邮件/密码不能为空</string>
+    <string name="login_success">登录成功</string>
+    <string name="sign_up_title">注册</string>
+    <string name="account_name_hint">账户名称</string>
+    <string name="sign_up">注册</string>
+    <string name="name_or_email_or_pw_empty">用户名称/邮件/密码不能为空</string>
+    <string name="invalid_user_name">用户名不能包含特殊字符</string>
+    <string name="sign_up_success">注册成功 ! 请登录.</string>
+    <string name="sign_up_failed">注册失败 :</string>
+    <string name="message_list">短信列表</string>
+    <string name="setting">设置</string>
+    <string name="server_message">服务器短信</string>
+    <string name="account">账户</string>
+    <string name="account_name">账户名称</string>
+    <string name="account_email">账户邮箱</string>
+    <string name="download">下载短信</string>
+    <string name="log_out">退出登录</string>
+    <string name="upload">上传短信</string>
+    <string name="user_or_pw_empty">用户邮件/密码不能为空</string>
+    <string name="auto_boot_up">自动启动</string>
+    <string name="service_notification_text">短信转家后台运行中</string>
+    <string name="uploaded_message">已上传短信</string>
+    <string name="service_notification_title">短信转家后台运行中</string>
+    <string name="service_notification_detail">为保证软件功能正常运行，请确保该通知存在！</string>
+    <string name="notification_new_text">新消息：</string>
+    <string name="feedback">意见反馈</string>
+    <string name="share">分享到微信</string>
+    <string name="about">关于</string>
+    <string name="website">网站</string>
+    <string name="mail_title">意见反馈：</string>
+    <string name="share_sorry">对不起，分享功能暂未添加，请移步官网并分享</string>
+
+    <plurals name="num_selected">
+        <item quantity="zero">"已选中<xliff:g id="number" example="7">%d</xliff:g>项"</item>
+        <item quantity="one">"已选中<xliff:g id="number" example="7">%d</xliff:g>项"</item>
+        <item quantity="two">"已选中<xliff:g id="number" example="7">%d</xliff:g>项"</item>
+        <item quantity="few">"已选中<xliff:g id="number" example="7">%d</xliff:g>项"</item>
+        <item quantity="many">"已选中<xliff:g id="number" example="7">%d</xliff:g>项"</item>
+        <item quantity="other">"已选中<xliff:g id="number" example="7">%d</xliff:g>项"</item>
+    </plurals>
+    <string name="website_address">http://smsxfer.bmob.cn/</string>
+</resources>

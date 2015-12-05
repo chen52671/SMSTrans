@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ActionBarText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/dimgray</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginBottom">0.5dp</item>
+    </style>
+
+    <style name="ActivityTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MainActionBar</item>
+    </style>
+
+    <style name="MainActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:displayOptions">showCustom</item>
+        <item name="android:height">55dp</item>
+        <item name="android:background">@drawable/custom_actionbar_bg</item>
+    </style>
+    <style name="account_setup_line_style">
+        <item name="android:background">#d9d9d9</item>
+    </style>
+
+    <style name="accountSetupButton4Login">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@drawable/login_next_bac</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="SettingPadding">
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="delete_button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="MultiSelectCheckBox">
+        <item name="android:drawableRight">@drawable/v6_top_btn_select_all</item>
+        <item name="android:button">@drawable/empty</item>
+        <item name="android:background">@drawable/common_btn_background</item>
+    </style>
+
+    <style name="ActionModeTitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#bbbbbb</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

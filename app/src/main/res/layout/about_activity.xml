@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/setting_bac"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/feedback_container"
+            style="@style/SettingPadding"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="@drawable/setting_bj"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_weight="1"
+                android:text="@string/feedback"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/entrance_arrow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/share_container"
+            style="@style/SettingPadding"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="@drawable/setting_bj"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_weight="1"
+                android:text="@string/share"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/entrance_arrow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/website_container"
+            style="@style/SettingPadding"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="@drawable/setting_bj"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_weight="1"
+                android:text="@string/website"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/entrance_arrow" />
+        </LinearLayout>
+
+
+        <include layout="@layout/setting_segmentation" />
+
+
+        <TextView
+            android:id="@+id/version"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="V1.0"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_weight="13">
+
+        <ListView
+            android:id="@+id/message_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+    </RelativeLayout>
+
+    <View
+        style="@style/account_setup_line_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_divider_height" />
+
+    <LinearLayout
+        android:id="@+id/buttonPanel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:minHeight="45dp"
+        android:orientation="horizontal">
+        <!--搜索-->
+        <LinearLayout
+            android:id="@+id/bottom_search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onBottomBtn">
+
+            <ImageView
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:src="@drawable/search_button" />
+        </LinearLayout>
+<!--多选-->
+        <LinearLayout
+            android:id="@+id/bottom_select_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onBottomBtn">
+
+            <ImageView
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:src="@drawable/select_button" />
+        </LinearLayout>
+<!--标为已读-->
+        <LinearLayout
+            android:id="@+id/bottom_read_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onBottomBtn">
+
+            <ImageView
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:src="@drawable/read_button" />
+        </LinearLayout>
+<!--删除-->
+        <LinearLayout
+            android:id="@+id/bottom_delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onBottomBtn">
+
+            <ImageView
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:src="@drawable/delete_button" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

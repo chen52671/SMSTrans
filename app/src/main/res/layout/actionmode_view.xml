@@ -1,0 +1,31 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ab_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+  
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/select_btn"
+        style="@style/ActionModeTitle"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:visibility="gone"
+        android:maxLines="1" />
+    <CheckBox android:id="@+id/select_btn"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:layout_gravity="right|center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="0dp"
+        style="@style/MultiSelectCheckBox"/>
+
+</RelativeLayout>
